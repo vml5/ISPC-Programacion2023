@@ -98,17 +98,3 @@ print("La suma de los números positivos ingresados es:", sumaNum)
 #números
 
 
-numeros = []
-listaNum = []
-
-for i in range(15):
-    numero = int(input("Ingrese un número negativo: "))
-    while numero >= 0:
-        numero = int(input("El número ingresado no es negativo.Por favor, ingrese un número negativo: "))
-    
-    numero = abs(numero)  # Convierte el número negativo a positivo
-    listaNum.append(numero)
-
-print("Los números anteriores convertidos a positivos :")
-for numero in listaNum:
-    print(numero)

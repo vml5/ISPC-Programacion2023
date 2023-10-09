@@ -1,0 +1,9 @@
+def conversion_centimetros(num_cm):
+    metros = num_cm / 100
+    milimetros = num_cm * 10
+    pulgadas = num_cm / 2.54
+
+    print("La conversión de", num_cm, "centímetros:")
+    print("Metros:", metros)
+    print("Milímetros:", milimetros)
+    print("Pulgadas:", pulgadas)
